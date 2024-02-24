@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int n, i;
+    float num, sum = 0.0, average;
+
+    printf("Introduceti numarul de elemente: ");
+    scanf("%d", &n);
+
+    for(i = 1; i <= n; i++) {
+        printf("Introduceti numarul %d: ", i);
+        scanf("%f", &num);
+
+        sum += num; // Adaugă numărul curent la suma totală
+    }
+
+    average = sum / n; // Calculează media
+
+    printf("Media aritmetica = %.2f\n", average);
+
+    return 0;
+}
