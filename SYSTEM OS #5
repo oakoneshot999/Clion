@@ -1,0 +1,26 @@
+#include <stdio.h>
+#include <unistd.h> // Pentru functia sleep()
+
+int main() {
+    printf("Initializare program de stergere OS...\n");
+    sleep(2); // Asteapta 2 secunde pentru a simula o incarcare
+
+    printf("Cautare fisiere sistem...\n");
+    sleep(2); // Simuleaza cautarea fisierelor
+
+    printf("Fisiere sistem gasite. Incepere proces de stergere...\n");
+    sleep(2); // Simuleaza inceperea procesului de stergere
+
+    printf("Stergere kernel32.dll...\n");
+    sleep(1); // Simuleaza stergerea unui fisier important
+
+    printf("Stergere sistem32...\n");
+    sleep(1); // Continua cu "stergerea" altor fisiere
+
+    printf("Stergere completa. OS eliminat.\n");
+    sleep(1); // Finalizeaza simularea
+
+    printf("HAHHAHAHHHAHAHAHHAHAHAHHAHHA. :)\n");
+
+    return 0;
+}
