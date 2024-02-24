@@ -1,0 +1,2 @@
+# Clion
+for study stuff 
